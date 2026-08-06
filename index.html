@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id ="input">
+    <input id="display" readonly><br>
+    <div/>
+    <div id="buttons">
+    <button id="num" onclick="appendToDisplay('0')">0</button>
+    <button id="num" onclick="appendToDisplay('1')">1</button>
+    <button id="num" onclick="appendToDisplay('2')">2</button>
+    <button id="btn" onclick="appendToDisplay('+')">+</button>
+    <br>
+    <button id="num" onclick="appendToDisplay('3')">3</button>
+    <button id="num" onclick="appendToDisplay('4')">4</button>
+    <button id="num" onclick="appendToDisplay('5')">5</button>
+    <button id="btn" onclick="appendToDisplay('-')">-</button>
+    <br>
+    <button id="num" onclick="appendToDisplay('6')">6</button>
+    <button id="num" onclick="appendToDisplay('7')">7</button>
+    <button id="num" onclick="appendToDisplay('8')">8</button>
+    <button id="btn" onclick="appendToDisplay('*')">*</button>
+    <br>
+    <button id="num" onclick="appendToDisplay('9')">9</button>
+    <button id="btn" onclick="appendToDisplay('/')">/</button>
+    <button id="btn" onclick="calculate()">=</button>
+    <button id="btn" onclick="clearDisplay()">CL</button>
+    <div/>
+    <script src="script.js"></script>
+</body>
+</html>
